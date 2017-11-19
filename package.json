@@ -1,0 +1,24 @@
+{
+  "name": "graph-lib",
+  "version": "0.0.1-beta",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "author": "Anuradha Wickramarachchi <anuradhawick@gmail.com> (https://medium.com/@anuradhawick)",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^2.6.1"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.85",
+    "@types/uuid": "^3.4.3",
+    "lodash": "^4.17.4",
+    "uuid": "^3.1.0"
+  }
+}
